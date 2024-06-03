@@ -1,0 +1,224 @@
+#logo, title {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--color-palette);
+    text-shadow: 0px 2px 2px #ffffff;
+    margin-left: 20px;
+}
+.box {
+    width: 850px;;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-palette);
+    text-shadow: 0px 2px 2px #ffffff;
+    font-family: 'Dancing Script', cursive;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    font-family: 'Open Sans', sans-serif,bold;
+    font-size: 25px;
+	
+}
+
+#model-content {
+    font-family: 'Open Sans', sans-serif, bold;
+    font-size: 25px;
+    width: 800px;
+    height: auto;
+}
+
+.modal-content {
+    background-color: #fffaf6; 
+}
+#modal-dialog {
+	font-family: 'Open Sans', sans-serif,bold;
+
+}
+.modal-backdrop {
+	opacity: 0 !important;
+}
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+	background-color: #fffaf6;
+}
+.navbar-nav {
+	margin-left: auto;
+	margin-right: 30px;
+	/* Align the navigation items to the right */
+}
+
+.nav-item .nav-link {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+    .nav-item .nav-link:hover {
+        background: var(--color-palette);
+        color: #FFFFFF;
+    }
+
+#container1 {
+    padding-top: 100px;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+  }
+
+
+
+.main-txt p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    color: var(--color-palette);
+    text-shadow: 0px 1px 1px;
+    font-size: 50px;
+}
+
+
+
+.destination-box img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.destination-box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Add spacing between destination boxes */
+.destination-box + .destination-box {
+    margin-top: 30px;
+}
+.destination-box {
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 20px rgb(75, 73, 73);
+    height: 350px;
+    width: 100%;
+    max-width: 380px;
+    margin: 20px auto;
+    background: rgb(229, 217, 217);
+    transition: transform 0.3s ease-in-out;
+    text-align: center; /* Center align text */
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-info h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.destination-box img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.destination-box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Add spacing between destination boxes */
+.destination-box + .destination-box {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: var(--color-palette);
+    color: #FFFFFF;
+    padding: 2px 0;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bande-container-ex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container-footer {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.row-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 670px;
+    column-gap: 105px;
+}
+
+.footercol {
+    width: 48%;
+}
+
+  
+  h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  #footer-p {
+	font-size: 18px;
+	line-height: 1.5;
+  }
+
+.copyright {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #FFFFFF;
+    margin-trim: 20px;
+    display: grid;
+}
+.div-copyright {
+    background-color: var(--color-palette);
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+  
+  .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 20px;
+    justify-content: center;
+  }
